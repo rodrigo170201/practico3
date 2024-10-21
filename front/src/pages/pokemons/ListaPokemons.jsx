@@ -104,7 +104,6 @@ const ListaPokemon = () => {
                                                 <tr key={pokemon.id}>
                                                     <td>{pokemon.nroPokedex}</td>
                                                     <td>
-                                                        {/* Añadimos el Link alrededor de la imagen */}
                                                         <Link to={`/pokemons/${pokemon.id}/detail`}>
                                                             <img
                                                                 src={`http://localhost:3000/pokemons/${pokemon.id}.jpg`}
